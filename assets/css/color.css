@@ -243,12 +243,12 @@
 }
 
 .gallery-block-one .inner-box .image-box .view-btn a:hover{
-  color: #f34848;
+  /* color: #f34848; */
 }
 
-.gallery-block-one .inner-box .image-box:before{
+/* .gallery-block-one .inner-box .image-box:before{
   background: #f34848;
-}
+} */
 
 .google-map-section .lower-content .inner-container .inner h2 a{
   color: #f34848;

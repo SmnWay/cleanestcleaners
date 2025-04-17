@@ -1,0 +1,34 @@
+.socialContainer {
+  padding: 8px 0px;
+  box-shadow: 0 9px 21px 0 rgba(42, 42, 42, 0.15);
+  border-radius: 8px 0px 0px 8px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  background: white;
+  overflow: hidden;
+  z-index: 1100;
+  -webkit-border-radius: 8px 0px 0x 8px;
+  -ms-border-radius: 8px 0px 0x 8px;
+  -moz-border-radius: 8px 0px 0x 8px;
+  -o-border-radius: 8px 0px 0x 8px;
+}
+
+.socialContainer .col {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.socialContainer a {
+  font-size: 26px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: -6px;
+}
+
+.socialContainer a img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  float: left;
+}
